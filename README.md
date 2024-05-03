@@ -1,41 +1,39 @@
 # CSPB2270-Final-Proj
 Inverted Index and Concordance Generator for Text Analysis
 
- -- PROJECT GOAL ----------------------------------------------------------------------------------------------------------------
-|
-| To facilitate more efficient analysis of lengthy transcripts of Native American languages through the use of inverted indexes 
-| and a concordance generator. The user would be able to upload a text file of any size and quickly search for a word or phrase. 
-| The program would then return an index of where the word or phrase can be found in the text, and the sample of text in which the input 
-| occurs. Concordance generation will allow the linguistic researcher to see the context for the input and allow for faster pattern-recognition 
-| which can help to accurately place the word or phrase’s usage in the language. This would also help to build a linguistic database that 
-| can be continuously added to and easily used. 
-|
- --------------------------------------------------------------------------------------------------------------------------------
+PROJECT GOAL
+------------
+To facilitate more efficient analysis of lengthy transcripts of Native American languages through the use of inverted indexes 
+and a concordance generator. The user would be able to upload a text file of any size and quickly search for a word or phrase. 
+The program would then return an index of where the word or phrase can be found in the text, and the sample of text in which the input 
+occurs. Concordance generation will allow the linguistic researcher to see the context for the input and allow for faster pattern-recognition 
+which can help to accurately place the word or phrase’s usage in the language. This would also help to build a linguistic database that 
+can be continuously added to and easily used. 
  
 
- -- METHODOLOGY ----------------------------------------------------------------------------------------------------------------
- |
- |  I will be implementing this code using Python, a common language used in linguistic research and one that I 
- |  would like to get more experience with - particularly with code that uses some elementary Natural Language Processing (NLP). 
- |
- |  - Data input: I will be sourcing some large transcripts of text that the user can then use to search for particular words or 
- |      phrases, while also creating a way for the user to upload their own text file that they would like to explore. 
- |
- |  - Concordance generator: In linguistics, concordance is used to show context to a given word or phrase. If a researcher 
- |     wants to understand what a word means, they need to see it in a variety of different usages. Each example shows how the 
- |     word can be used differently (or not!). This is a valuable tool in spotting patterns for words.
- |
- |  - Inverted Index: I will be using an inverted index, which functions differently from a regular index by directing 
- |      the user to the specific line, page, and document that the word can be found on. Inverted indexes are commonly 
- |     used in search engines and map the input variable directly to their location.
- |
- |  - Hash-Map Dictionary: A dictionary will be created using a hashmap for the code to store and quickly search for 
- |      the input word or phrase. Hashmaps are extremely efficient and have a computational complexity of constant time, or O(1). 
- |
- |  - Interface Design:I would like to explore some interface design but am a bit intimidated by that idea - I’m aiming to 
- |       create something simple that will allow for easier and more streamlined interaction with the code.
- |
- ------------------------------------------------------------------------------------------------------------------------------
+  METHODOLOGY 
+  -----------
+ I will be implementing this code using Python, a common language used in linguistic research and one that I 
+ would like to get more experience with - particularly with code that uses some elementary Natural Language Processing (NLP). 
+ 
+- Data input: I will be sourcing some large transcripts of text that the user can then use to search for particular words or 
+    phrases, while also creating a way for the user to upload their own text file that they would like to explore.
+
+- Concordance generator: In linguistics, concordance is used to show context to a given word or phrase. If a researcher 
+  wants to understand what a word means, they need to see it in a variety of different usages. Each example shows how the 
+   word can be used differently (or not!). This is a valuable tool in spotting patterns for words.
+ 
+- Inverted Index: I will be using an inverted index, which functions differently from a regular index by directing 
+  the user to the specific line, page, and document that the word can be found on. Inverted indexes are commonly 
+ used in search engines and map the input variable directly to their location.
+ 
+- Hash-Map Dictionary: A dictionary will be created using a hashmap for the code to store and quickly search for 
+the input word or phrase. Hashmaps are extremely efficient and have a computational complexity of constant time, or O(1).
+
+- Interface Design:I would like to explore some interface design but am a bit intimidated by that idea - I’m aiming to 
+create something simple that will allow for easier and more streamlined interaction with the code.
+
+
  
 
 --- EXPECTED OUTCOME ----------------------------------------------------------------------------------------------------------
