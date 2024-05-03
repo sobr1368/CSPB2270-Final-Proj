@@ -49,14 +49,14 @@ To create an inverted index, the text needs to be broken down into words, and th
 
  RUNNING THE CODE 
  -----------------
-1. You have been added as a member to this private repository, I think that means you can download the files and then run them locally through a terminal...GitHub is still so difficult for me and I tried to find more detailed descriptions for what to do but they all seemed a bit unclear to me. Crossing my fingers and letting jesus take the wheel a litte bit at this point!
+1. You have been added as a member to this private repository, I think that means you can download the files and then run them locally through a terminal...GitHub is still difficult for me and I tried to find more detailed instructions for what to do but they all seemed a bit unclear to me. 
 
 2. Now that you are running the code through the terminal, the UI should make it easy! Simply follow the instructions as
    they are given. Those will be:
-       a. Select a text from the displayed library
-       b. Enter a target word for the code to search for
-       c. Decide whether you would like the inverted index to be displayed or not
-       d. Determine how many words of context you would like to see and input that number
+   a. Select a text from the displayed library
+   b. Enter a target word for the code to search for
+   c. Decide whether you would like the inverted index to be displayed or not
+   d. Determine how many words of context you would like to see and input that number
    
 4. The output of this will be the inverted index (if selected to display), each occurence of the input target word surrounded by however many context words were specificed by the user.
 
